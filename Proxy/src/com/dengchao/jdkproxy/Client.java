@@ -6,7 +6,7 @@ import java.lang.reflect.Proxy;
 public class Client {
 
     /**
-     * @Decription:
+     * @Decription:JDK代理只能代理实现了接口的类
      * @param args
      * @return:void
      */
