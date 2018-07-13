@@ -8,7 +8,7 @@ package com.dengchao.push;
 public interface Observer {
     /**
      * @Decription:更新的接口
-     * @param subject
+     * @param weatherContent
      * @return:void
      */
     void update(String weatherContent);
