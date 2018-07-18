@@ -27,7 +27,7 @@ public class HairFactory {
         try {
             HairInterface hair = (HairInterface) Class.forName(className).newInstance();
             return hair;
-        } catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
+        } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
@@ -44,7 +44,7 @@ public class HairFactory {
         try {
             HairInterface hair = (HairInterface) Class.forName(map.get(key)).newInstance();
             return hair;
-        } catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
+        } catch (Exception e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
